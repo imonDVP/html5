@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        caption,
+        th,
+        td {
+            border: 2px solid rgb(111, 47, 222);
+            border-collapse: collapse;
+        }
+
+        /* tbody {
+            background-color: wheat;
+        } */
+
+        /* th {
+            background-color: rgb(200, 111, 183);
+        } */
+
+        caption {
+            background-color: rgb(172, 223, 41);
+        }
+
+        /* tfoot {
+            background-color: rgb(111, 184, 215);
+        } */
+    </style>
+    <title>table </title>
+</head>
+<body>
+    <table style="width: 100%;">
+        <caption>Making Table</caption>
+        <!-- <colgroup>
+            <col span="2" style="background-color: rgb(236, 205, 231)">
+        </colgroup> -->
+        <!-- <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+            <col span="3" style="background-color: pink">
+        </colgroup> -->
+        <colgroup>
+            <col span="2">
+            <col span="3" style="visibility: collapse">
+        </colgroup>
+        <!-- visible	Default value. The element is visible
+        hidden	The element is hidden (but still takes up space)
+        collapse	Only for table rows (<tr>), row groups (<tbody>), columns (<col>), column groups (<colgroup>). This value removes a row or column, but it does not affect the table layout. The space taken up by the row or column will be available for other content.
+        If collapse is used on other elements, it renders as "hidden" -->
+        <thead>
+            <tr>
+                <th>Letter1</th>
+                <th>Letter2</th>
+                <th>Letter3</th>
+                <th>Letter4</th>
+                <th>Letter5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+                <td>M</td>
+                <td>N</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>P</td>
+                <td>Q</td>
+                <td>R</td>
+                <td>S</td>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>U</td>
+                <td>V</td>
+                <td>W</td>
+                <td>Y</td>
+                <td>Z</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>Total</td>
+                <td>Total</td>
+                <td>Total</td>
+                <td>Total</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

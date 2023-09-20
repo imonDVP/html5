@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            border: 6px solid red;
+            /* background-size: cover; */
+            /* background-size: 100% 100%; */
+        }
+    </style>
+    <title>picturet</title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width: 1200px)" srcset="dusk.jpg">
+        <source media="(min-width: 992px)" srcset="flower3.jpg">
+        <source media="(min-width: 768px)" srcset="wall1.jpg">
+        <source media="(min-width: 576px)" srcset="italy.jpg">
+        <source media="(min-width: 450px)" srcset="peagon.jpg">
+        <img src="flower7.jpg">
+    </picture>
+</body>
+</html>

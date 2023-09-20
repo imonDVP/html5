@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #dusk {
+            border: 6px solid rgb(157, 237, 8);
+            height: 200px;
+            width: 200px;
+        }
+        #butter {
+            border: 6px solid rgb(205, 20, 20);
+            height: 200px;
+            width: 200px;
+        }
+        #flower {
+            border: 6px solid rgb(239, 33, 146);
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <title>map</title>
+</head>
+<body>
+    <h2>Image Maps</h2>
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+    <img src="dusk.jpg" alt="Workplace" usemap="#imon" id="dusk">
+    <map name="imon">
+        <area shape="rect" coords="34,44,270,350" alt="sorry" href="https://www.google.com/" target="_blank">
+        <!-- <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.google.com/">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.google.com/"> -->
+    </map>
+    <img src="butterfly.jpg" alt="Ooh,sorry" usemap="#butter" id="butter">
+    <map name="butter">
+        <area shape="rect" coords="37,2,7186,4782" alt="Phone" href="https://www.google.com/" target="_blank" </map>
+        <img src="flower3.jpg" alt="Ooh,sorry" usemap="#flower" id="flower">
+        <map name="flower">
+            <area shape="rect" coords="12,4,3644,2730" alt="Phone" href="https://www.google.com/" target="_blank" </map>
+</body>
+</html>
